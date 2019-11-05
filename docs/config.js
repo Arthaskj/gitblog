@@ -5,5 +5,5 @@
  */
 export default {
   httpPort: 8000,
-  ajaxUrl: 'http://arthaskj.cn:3000'
+  ajaxUrl: 'http://arthaskj.cn:3000',
 }

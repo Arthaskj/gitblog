@@ -19,10 +19,10 @@ const ajax = (option) => {
 //     console.log(res);
 //   }
 // })
-
+let s = window.location.host + ',' + new Date().toLocaleString().replace(/\s/g, '').replace(/\//g, '-');
 ajax({
   type: 'GET',
-  url: "/api/SysContronller/SetPageViews?url=" + window.location.href,
+  url: "/api/SysContronller/SetPageViews?url=" + s,
   async: false,
   success(res) {
     ajax({
@@ -31,7 +31,7 @@ ajax({
       async: false,
       success(res) {
         window.pageViews = res && res.length || '0'
-        console.log(window.pageViews);
+        console.log(res);
       }
     })
   }
