@@ -1,7 +1,7 @@
 **遥远的故乡，对生活的企望，生而不断的孤独，压抑，成了这个城市冬日化不开的一团雾，这团雾从过往，从故地飘来，坐落在看不见未来与尽头的黄棕色土地间。**
 
 <video id="video" width="100%" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-      <source id="mp4" src="http://vwecam.tc.qq.com/1097_c24188c1e5b74b72bd38920c10c4abbb.f0.mp4?ptype=http&vkey=6ED7A71FB738AB4396DA7A3E388F8BDAF0661A000C7AD9A1BF6997597F8B4C522572429754F905C4852848BC38CB641F0A6F1BD8FC2397DD" type="video/mp4">
+      <source id="mp4" src="./src/travel/assets/cs20191105.mp4" type="video/mp4">
      
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
