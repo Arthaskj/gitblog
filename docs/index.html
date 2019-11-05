@@ -23,6 +23,7 @@
 
  
 </head>
+<script type="module" src="./index.js"></script>
 
 <body>
   <div id="app">正在加载，请稍后。。。</div>
@@ -58,6 +59,7 @@
             '<footer>',
             '<span><a href="https://github.com/Arthaskj/gitblog/" target="_blank">KJ-Blog</a> &copy;2019.</span>',
             '<span>Proudly published with <a href="https://github.com/Arthaskj" target="_blank">Arthaskj</a>.</span>',
+            '<span style="margin-left:20px;"><b title="'+window.pageViews+'"> '+(window.pageViews && window.pageViews > 999999 ? '999999+' : window.pageViews || '--')+' </b>人次浏览</span>',
             '</footer>'
           ].join('')
 
@@ -80,9 +82,9 @@
       }
     }
   </script>
-   <!-- vue引入 -->
-   <script src="//unpkg.com/vue"></script>
-   <!-- <script src="//unpkg.com/docsify"></script> -->
+  <!-- vue引入 -->
+  <script src="//unpkg.com/vue"></script>
+  <!-- <script src="//unpkg.com/docsify"></script> -->
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
 </body>
