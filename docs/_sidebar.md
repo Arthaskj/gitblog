@@ -7,6 +7,7 @@
   * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**GitHub**
     * [Github作为MarkDown图床](src/study/githubWithMD)
   * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**前端**
+    * [右键菜单功能](src/study/vue右键菜单)
     * [Git分支操作](src/study/gitskill)
     * [开源！！！node实现"全能"后台接口](src/study/node实现全能后台)
     * [返回Promise.then的值](src/study/返回Promise.then的值)
