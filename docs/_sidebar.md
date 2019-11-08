@@ -24,6 +24,7 @@
   * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**VsCode**
     * [VsCode添加添加自定义snippet(代码块)](src/study/vscodeblock)
   * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**数据库**
+    * [MongoDb安装配置](src/study/Mongodb安装配置)
     * [常用SQL语句](src/study/sql)
   * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**Linux**
     * [crontabs定时任务设置](src/study/crontabs定时任务)
