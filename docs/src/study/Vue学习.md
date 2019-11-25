@@ -106,3 +106,105 @@ new Vue({
     }})
 ```
 
+
+
+### Store
+
+[参考文档](https://www.cnblogs.com/qianduangaoshou/p/7009044.html)
+
+- **state**  变量声明
+- **mutations** 保存值得方法`不允许在组件内直接对state变量进行操作，只能通过方法对state进行赋值`
+- **actions** 异步方法，异步调用`mutations`，中间可以进行其他操作
+- **getters** getters是用于计算state的函数，这实际上是函数，使用这个函数我们可以对state进行处理
+- **commit** 调用`mutations`方法
+- **dispatch** 调用`actions`方法
+
+> 在store中存在这state，这里面保存着所有组件之间共享的数据：这里面的状态是响应式的，如果store中的状态得到变化，那么相应的组件的状态也会得到变化；
+>
+> 我们通过mutations来实现改变store中的state
+>
+> 我们通过 store.state来获取状态对象，我们通过 store.commit来触发状态更新
+
+```js
+/**
+ * store文件
+ */
+import API from '@/api'
+
+const state = {
+    demo: '',
+    demos: []
+}
+
+const getters = {
+    doDemos: state => {
+      return state.demos.filter(todo => todo.done)
+    }
+}
+
+const mutations = {
+    setDemo(state, params){
+        state.demo = 'data1';
+    }
+}
+
+const actions = {
+    getDemo(context,params){
+        API.demo
+          .getDemo(params)
+          .then(({ data }) => {
+            context.commit({
+              type: 'setDemo',
+              payload: data,
+            });
+          });
+    }
+}
+
+export default {
+  namespaced: true,
+  state,
+  getters,
+  actions,
+  mutations
+};
+```
+
+```js
+/**
+ * 调用
+ */
+// 在单独构建的版本中辅助函数为 Vuex.mapState
+import { mapState } from 'vuex'
+ 
+export default {
+  // ...
+  computed: {
+      ...mapState({
+        demo: state => state.demo,
+        // 箭头函数可使代码更简练
+        count: state => state.count,
+
+        // 传字符串参数 'count' 等同于 `state => state.count`
+        countAlias: 'count',
+
+        // 为了能够使用 `this` 获取局部状态，必须使用常规函数
+        countPlusLocalState (state) {
+          return state.count + this.localCount
+        }
+      })
+  },
+    methods: {
+        fun1(){
+       		this.$store.commit('setDemo', {data:''}); // 直接操作 mutations
+        },
+        fun2(){
+            this.$store.dispatch('getDemo', {data:''}); // 操作 actions 异步操作 mutations
+        },
+        fun3(){
+            this.demo; // 直接能拿到vux中demo得数据
+        }
+    }
+}
+```
+
