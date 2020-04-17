@@ -4,9 +4,10 @@
  * @Description: 
  -->
 * 一、技巧  
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**GitHub**
+  **GitHub**
     * [Github作为MarkDown图床](src/study/githubWithMD)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**前端**
+    
+  **前端**
     * [右键菜单功能](src/study/vue右键菜单)
     * [Git分支操作](src/study/gitskill)
     * [开源！！！node实现"全能"后台接口](src/study/node实现全能后台)
@@ -21,23 +22,31 @@
     * [2019.10.17gulp压缩转换js文件](src/study/2019.10.17gulp压缩转换js文件)
     * [2019.10.17IndexedDb封装](src/study/2019.10.17IndexedDb封装)
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**VsCode**
+    
+  **VsCode**
     * [VsCode添加添加自定义snippet(代码块)](src/study/vscodeblock)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**数据库**
+  
+  **数据库**
     * [MongoDb安装配置](src/study/Mongodb安装配置)
     * [常用SQL语句](src/study/sql)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**Linux**
+  
+  **Linux**
     * [crontabs定时任务设置](src/study/crontabs定时任务)
     * [CentOS防火墙配置](src/study/centosfhhoqd)
     * [私有服务器搭建(转)](src/study/setgitlib)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**Python**
+  
+  **Python**
     * [解决Python爬虫中文乱码问题](src/study/pythonsp)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**C#**
+  
+  **C#**
     * [简单的C#代码](src/study/csharpcode)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**Cmd&Shell**
+    * [Linux下dotnetCore环境安装](src/study/dotnetCore)
+  
+  **Cmd&Shell**
     * [解决Python爬虫中文乱码问题](src/study/pythonsp)
     * [Dos脚本备份文件](src/study/dosbackup)
-  * <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/wine_glass.png" alt="wine_glass">**树莓派**
+  
+  **树莓派**
     * [树莓派硬件编程](src/study/raspi)
     * [树莓派Mac下安装以及配置](src/study/树莓派Mac下安装以及配置)
     * [树莓派下安装node和npm](src/study/树莓派下安装node和npm)
