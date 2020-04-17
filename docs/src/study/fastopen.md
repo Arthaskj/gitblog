@@ -1,4 +1,5 @@
 <!--
+
  * @Author: 柯军
  * @Date: 2019-08-14 18:46:02
  * @Description: 
@@ -17,16 +18,16 @@
 ### 效果展示
 > **打开程序**
 
-![gif1](https://arthaskj.github.io/Photo/20190214/g1.gif)
+![gif1](fastopen.assets/g1.gif)
 
 > **打开文件夹**
 
-![gif2](https://arthaskj.github.io/Photo/20190214/g2.gif)
+![gif2](fastopen.assets/g2.gif)
 
 #### 1、创建vbs文件
 首先创建一个`.vbs`后缀的文件,名称随意。
 
-![代码路径](https://arthaskj.github.io/Photo/20190214/6.png)
+![代码路径](fastopen.assets/6.png)
 
 #### 2、编写代码
 > 可以直接复制以下代码，将简称以及程序路径替换成你想要的即可。
@@ -120,17 +121,17 @@ Set wshell = Nothing
 #### 3、程序路径获取
 > 将想加入快捷启动器的程序的路径填入代码中的位置，并设置好简称就可以在启动器中使用简称打开程序
 
-![路径获取](https://arthaskj.github.io/Photo/20190214/2.png)
-![代码路径](https://arthaskj.github.io/Photo/20190214/4.png)
+![路径获取](fastopen.assets/2.png)
+![代码路径](fastopen.assets/4.png)
 
 #### 4、脚本快捷键设置
 > 在此处设置快捷键后就可以使用快捷键打开启动器，建议快捷键设置的特殊一些，这样不会与其他程序内的快捷键冲突
 
-![代码路径](https://arthaskj.github.io/Photo/20190214/3.png)
+![代码路径](fastopen.assets/3.png)
 
 
 #### 4、bat程序版本
-![bat版本](https://arthaskj.github.io/Photo/20190214/7.png)
+![bat版本](fastopen.assets/7.png)
 ```
 CHCP 65001
 set /p input=请输入程序代码：
@@ -242,4 +243,4 @@ exit
 
 > 程序代码可以从文章中复制或扫描下面二维码询问获取。
 
-![微信二维码](https://arthaskj.github.io/Photo/wechatcode.png)
+![微信二维码](fastopen.assets/wechatcode.png)

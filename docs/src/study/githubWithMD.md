@@ -54,12 +54,12 @@ Linux或Mac用户生成密钥路径一般在
 ### 四、添加Git的SSH密钥
 
 登录自己的github账户，按照如下顺序操作
-![登录github账户选择设置](https://arthaskj.github.io/Photo/github/1.png)
+![登录github账户选择设置](githubWithMD.assets/1.png)
 
-![选择SSH和GPG密钥进行添加](https://arthaskj.github.io/Photo/github/2.png)
+![选择SSH和GPG密钥进行添加](githubWithMD.assets/2.png)
 
 这里标题可以随便填，下面的Key则是刚刚我们生成的**id_rsa.pub**里的所有内容
-![命名密钥并填写密钥](https://arthaskj.github.io/Photo/github/3.png)
+![命名密钥并填写密钥](githubWithMD.assets/3.png)
 
 ### 五、GitHub操作
 
@@ -76,12 +76,12 @@ git clone https://github.com/用户名/仓库名.git
 
 > 上传操作需要先在网页版上新建一个库并得到库的地址才可以进行。
 
-![新建一个库](https://arthaskj.github.io/Photo/github/4.png)
-![新建一个库](https://arthaskj.github.io/Photo/github/5.png)
+![新建一个库](githubWithMD.assets/4.png)
+![新建一个库](githubWithMD.assets/5.png)
 
 > 如下图，新的库建立之后我们就可以获取到他的地址,并且官方也给出了链接的使用方法
 
-![新建一个库](https://arthaskj.github.io/Photo/github/6.png)
+![新建一个库](githubWithMD.assets/6.png)
 
 新建好远程仓库后我们就可以在电脑上创建一个对应的文件夹，在当前文件夹下试着添加一个文件，例如**demo.txt**,然后执行如下代码
 
@@ -93,7 +93,7 @@ git remote add origin https://github.com/用户名/demo2.git
  git push -u origin master   //开始提交
 ```
 
-![新建一个库](https://arthaskj.github.io/Photo/github/7.png)
+![新建一个库](githubWithMD.assets/7.png)
 
 ![新建一个库](https://arthaskj.github.io/Photo/github/8.png)
 
