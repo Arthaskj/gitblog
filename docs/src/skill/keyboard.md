@@ -1,4 +1,5 @@
 <!--
+
  * @Author: 柯军
  * @Date: 2019-08-14 12:18:06
  * @Description: 
@@ -12,21 +13,21 @@
 - 2、拧下所有的螺丝
 
 - 3、抬起整个键盘
-  ![poker1](https://arthaskj.github.io/imglib/img/12105.jpg "poker1")
-  ![poker1](https://arthaskj.github.io/imglib/img/12106.jpg "poker1")
+  ![poker1](keyboard.assets/12105.jpg "poker1")
+  ![poker1](keyboard.assets/12106.jpg "poker1")
   **可以看出整个做工还是很不错的**
 
 - 4、焊接
 
   > 焊接的时候一定要有吸锡器！一定要有吸锡器！一定要有吸锡器！因为板子上默认的已经把正负极两个孔给封住了。没有吸锡器的话很可能会让锡盘脱落。在有吸锡器的情况下可以先将一个孔的锡吸干净，这样只要把另一个引脚抵住锡盘，同时用电烙铁加热锡盘并迅速将灯珠推到位。这样一个一个的焊接上就好了
-  > ![poker1](https://arthaskj.github.io/imglib/img/12107.jpg "poker1")
+  > ![poker1](keyboard.assets/12107.jpg "poker1")
   > 这是焊接到一半的情况
 
 - 5、将所有灯焊接好之后记得先通电测试一下，如果全部点亮就开始下一步吧
-  ![poker1](https://arthaskj.github.io/imglib/img/12108.jpg "poker1")
+  ![poker1](keyboard.assets/12108.jpg "poker1")
 
 - 6、全部完成之后就是这样了，但是因为自己的键帽是原装的，所以透光并不是很完美，打算入手一套透光的键帽，那样就很完美了
-  ![poker1](https://arthaskj.github.io/imglib/img/12109.jpg "poker1")
+  ![poker1](keyboard.assets/12109.jpg "poker1")
 
 `最后很重要的一点是，当你全部焊接完小灯发现通电不亮时，不要慌，不要急，有可能时你并没有开背光`
 
