@@ -25,7 +25,11 @@
     
   **EggJs**
     * [EggJs项目部署](src/study/eggjsDeploy)
-    
+    * [EggJs项目使用mongoose](src/study/eggjsMongoose)
+   
+  **Nginx**
+    * [Nginx配置文件](src/md/nginx/config.md) 
+   
   **VsCode**
     * [VsCode添加添加自定义snippet(代码块)](src/study/vscodeblock)
   
@@ -66,20 +70,7 @@
   * [2019.10.27 合肥环绕大蜀山随拍](src/travel/20191027街拍)
   * [2019.3.17 一个人 宏村](src/travel/hongcun)
   * [2019.3.30 一个人 武汉](src/travel/wuhan)
-
-<!-- * 四、文摘
-  * [最最喜欢你 绿子](src/article/luowei)
-  * [小确幸](src/article/xiaoquexin)
-  * [新幸福的十个条件](src/article/xinfuten)
-  * [时间与痛苦](src/article/shijianyutongku)
-  * [青春的故事](src/article/qinchun)
-  * [利用好晚上的时间](src/article/yewangongzuo)
-  * [不要说出你的目标](src/article/ifjqgj)
-  * [学会珍惜](src/article/xihdheffkl)
-  * [小目标](src/article/xcmubc)
-  * [抱怨孤独](src/article/loney)
-  * [蜜蜂与花](src/article/bee&hw)
-  * [度过充实的一天](src/article/niceday) -->
+  * [更多](src/travel/more)
 
 * 四、代码规范
   * [Eslint 使用](src/norm/Eslint)
