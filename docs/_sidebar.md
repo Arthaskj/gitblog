@@ -4,9 +4,6 @@
  * @Description: 
  -->
 * 一、技巧  
-  **GitHub**
-    * [Github作为MarkDown图床](src/study/githubWithMD)
-    
   **前端**
     * [右键菜单功能](src/study/vue右键菜单)
     * [Git分支操作](src/study/gitskill)
@@ -22,6 +19,12 @@
     * [2019.10.17gulp压缩转换js文件](src/study/2019.10.17gulp压缩转换js文件)
     * [2019.10.17IndexedDb封装](src/study/2019.10.17IndexedDb封装)
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
+    
+  **Mongodb**
+    * [mongoose增删改查操作](src/study/mongoose)
+    
+  **EggJs**
+    * [EggJs项目部署](src/study/eggjsDeploy)
     
   **VsCode**
     * [VsCode添加添加自定义snippet(代码块)](src/study/vscodeblock)
@@ -52,11 +55,14 @@
     * [树莓派下安装node和npm](src/study/树莓派下安装node和npm)
     * [花生壳内网映射让树莓派可以被外网访问](src/study/花生壳内网映射让树莓派可以被外网访问)
   
+  **GitHub**
+    * [Github作为MarkDown图床](src/study/githubWithMD)
+    * [常用指令](src/study/githubCmd)
+      
 * 二、技术宅
   * [IKBC Poker键盘加背光灯](src/skill/keyboard)
 
 * 三、旅行
-  * [仓鼠日记](src/travel/仓鼠日记)
   * [2019.10.27 合肥环绕大蜀山随拍](src/travel/20191027街拍)
   * [2019.3.17 一个人 宏村](src/travel/hongcun)
   * [2019.3.30 一个人 武汉](src/travel/wuhan)
