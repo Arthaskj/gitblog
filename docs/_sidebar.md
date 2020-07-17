@@ -22,7 +22,7 @@
   
   **Mongodb**
     * [mongoose增删改查操作](src/study/mongoose)
-    * [mongoose-find指令](src/study/mongoose)
+    * [mongoose-find指令](src/md/mongodb/find)
   
   **EggJs**
   
