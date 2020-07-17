@@ -19,17 +19,19 @@
     * [2019.10.17gulp压缩转换js文件](src/study/2019.10.17gulp压缩转换js文件)
     * [2019.10.17IndexedDb封装](src/study/2019.10.17IndexedDb封装)
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
-    
+  
   **Mongodb**
     * [mongoose增删改查操作](src/study/mongoose)
-    
+    * [mongoose-find指令](src/study/mongoose)
+  
   **EggJs**
+  
     * [EggJs项目部署](src/study/eggjsDeploy)
     * [EggJs项目使用mongoose](src/study/eggjsMongoose)
-   
+  
   **Nginx**
     * [Nginx配置文件](src/md/nginx/config.md) 
-   
+  
   **VsCode**
     * [VsCode添加添加自定义snippet(代码块)](src/study/vscodeblock)
   
@@ -62,10 +64,11 @@
   **GitHub**
     * [Github作为MarkDown图床](src/study/githubWithMD)
     * [常用指令](src/study/githubCmd)
-      
+  
 * 二、技术宅
-  * [IKBC Poker键盘加背光灯](src/skill/keyboard)
-
+  
+* [IKBC Poker键盘加背光灯](src/skill/keyboard)
+  
 * 三、旅行
   * [2019.10.27 合肥环绕大蜀山随拍](src/travel/20191027街拍)
   * [2019.3.17 一个人 宏村](src/travel/hongcun)
