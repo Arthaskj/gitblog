@@ -20,7 +20,12 @@
     * [2019.10.17IndexedDb封装](src/study/2019.10.17IndexedDb封装)
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
   
+  **Wsl**
+    * [开启win10下Ubuntu子系统的SSH服务](src/md/wsl/开启win10下Ubuntu子系统的SSH服务)
+    * [win10_linux_wsl子系统开机启动ssh服务](src/md/wsl/win10_linux_wsl子系统开机启动ssh服务)
+  
   **Mongodb**
+  
     * [mongoose增删改查操作](src/study/mongoose)
     * [mongoose-find指令](src/md/mongodb/find)
   
