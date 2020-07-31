@@ -1,8 +1,11 @@
 <!--
  * @Author: 柯军
+
  * @Date: 2019-08-13 12:17:44
+
  * @Description: 
  -->
+
 * 一、技巧  
   **前端**
     * [右键菜单功能](src/study/vue右键菜单)
@@ -20,6 +23,8 @@
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
   
   **自动部署**
+  
+    * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
   
   **Wsl**
     * [开启win10下Ubuntu子系统的SSH服务](src/md/wsl/开启win10下Ubuntu子系统的SSH服务)
