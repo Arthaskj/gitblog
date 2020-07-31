@@ -7,7 +7,6 @@
   **前端**
     * [右键菜单功能](src/study/vue右键菜单)
     * [Git分支操作](src/study/gitskill)
-    * [开源！！！node实现"全能"后台接口](src/study/node实现全能后台)
     * [返回Promise.then的值](src/study/返回Promise.then的值)
     * [Sass & Less使用教程](src/study/Sass&Less)
     * [前后端分离项目Readme](src/study/qmhbddffli)
