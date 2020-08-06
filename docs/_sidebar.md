@@ -84,7 +84,6 @@
   * [2019.10.27 合肥环绕大蜀山随拍](src/travel/20191027街拍)
   * [2019.3.17 一个人 宏村](src/travel/hongcun)
   * [2019.3.30 一个人 武汉](src/travel/wuhan)
-  * [更多](src/travel/more)
 
 * 四、代码规范
   * [Eslint 使用](src/norm/Eslint)
