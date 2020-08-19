@@ -7,7 +7,7 @@
  -->
 
 * 一、技巧  
-  **前端代码**
+  **前端代码1**
     * [右键菜单功能](src/study/vue右键菜单)
     * [Git分支操作](src/study/gitskill)
     * [返回Promise.then的值](src/study/返回Promise.then的值)
