@@ -26,7 +26,7 @@
   
     * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
   
-  **WSL**
+  **Wsl**
     * [开启win10下Ubuntu子系统的SSH服务](src/md/wsl/开启win10下Ubuntu子系统的SSH服务)
     * [win10下linux_wsl子系统开机启动ssh服务](src/md/wsl/win10_linux_wsl子系统开机启动ssh服务)
   
