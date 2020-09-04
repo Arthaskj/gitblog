@@ -3,7 +3,7 @@
 
  * @Date: 2019-08-13 12:17:44
 
- * @Description:2 
+ * @Description:
  -->
 
 * 一、技巧  
@@ -26,7 +26,7 @@
   
     * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
   
-  **Wsl**
+  **WSL**
     * [开启win10下Ubuntu子系统的SSH服务](src/md/wsl/开启win10下Ubuntu子系统的SSH服务)
     * [win10下linux_wsl子系统开机启动ssh服务](src/md/wsl/win10_linux_wsl子系统开机启动ssh服务)
   
