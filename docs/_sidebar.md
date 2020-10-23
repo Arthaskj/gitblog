@@ -84,11 +84,6 @@
   
 * [IKBC Poker键盘加背光灯](src/skill/keyboard)
   
-* 三、旅行
-  * [2019.10.27 合肥环绕大蜀山随拍](src/travel/20191027街拍)
-  * [2019.3.17 一个人 宏村](src/travel/hongcun)
-  * [2019.3.30 一个人 武汉](src/travel/wuhan)
-
 * 四、代码规范
   * [Eslint 使用](src/norm/Eslint)
   * [Airbnb CSS/Sass](src/norm/Css)
