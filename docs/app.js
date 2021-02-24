@@ -5,8 +5,7 @@
  */
 const express = require('express')
 const app = express()
-const config = require('./config')
-const httpPort = config.httpPort;
+const httpPort = 8000;
 
 // app.get('/', (req, res) => res.send('Hello World!'))
 app.use(express["static"]('./', { index: "index.html" }))
