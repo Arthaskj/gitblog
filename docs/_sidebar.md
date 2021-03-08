@@ -8,7 +8,7 @@
 
 * 一、技巧  
   **Common**
-    * [杂](src/md/common)
+    * [windows系统下解决bash中文乱码问题](src/md/common)
 
   **前端代码**
   

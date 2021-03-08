@@ -1,5 +1,11 @@
 ## 利用Gitee的webhook搭配自己的服务器实现自动化部署
 
+> 作者：Arthaskj       
+>
+> 时间：2021/02/26
+
+
+
 在gitee仓库的设置中选择webhooks，配置被访问的接口和密码以及触发请求接口的事件（一般是push）就好了。关于gitee的webhooks详细文档可以看[这里](https://gitee.com/help/categories/40)。
 
 ![image-20210224103102204](assets/image-20210224103102204.png)
