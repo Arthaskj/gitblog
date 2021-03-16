@@ -14,7 +14,7 @@
 
 ### 二、配置文件
 
-```typescript
+```js
 import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 import * as typegoose from '@midwayjs/typegoose';
 import cConfig from '../../sysConfig';
@@ -86,7 +86,7 @@ export default (appInfo: EggAppInfo) => {
 
 > 现在，你就可以使用Typescript强大的注解来处理之前在egg里需要大段复杂且繁琐代码才能处理的事情。目前统一的返回体处理还未完成~~~
 
-```typescript
+```js
 import {Inject, Controller, Provide, Query, Get, Post, Body, ALL, Validate} from '@midwayjs/decorator';
 import { Context } from 'egg';
 import { FundService } from '../service/fund';
@@ -155,7 +155,7 @@ export class FundController {
 
 ### 四、Service
 
-```typescript
+```js
 import {Init, Inject, Provide} from '@midwayjs/decorator';
 import { getModelForClass } from '@typegoose/typegoose';
 import { FundInfo, FundItemInfo } from '../entity/fund';
@@ -343,7 +343,7 @@ export class FundService {
 
 > 创建DTO文件可以在mongodb操作时进行校验，很是方便。它可以设置字段的类型，是否必填，以及最大最小值等等条件，但传入的参数不符合条件时会在编辑器里自动进行提醒，接口请求时字段不规范也会抛出异常。
 
-```typescript
+```js
 import { Rule, RuleType } from "@midwayjs/decorator";
 
 export class FundDTO {
@@ -397,7 +397,7 @@ export class FundItemDTO {
 
 ```
 
-```typescript
+```js
 import { prop } from '@typegoose/typegoose';
 
 export class FundInfo {
