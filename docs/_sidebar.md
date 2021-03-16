@@ -12,6 +12,7 @@
     * [WebApp项目(vue、vant)](src/md/mzqh5)
     * [SQL转换器-黑客马拉松大赛(React、Antd、TypeScript)](src/md/sql_translate)
     * [Taro开发微信小程序(React、Taro、TypeScript)](src/md/taro_wechat)
+    * [Vant开发微信小程序(React、Vant)](src/md/vant_wechat)
 
   **前端代码**
   

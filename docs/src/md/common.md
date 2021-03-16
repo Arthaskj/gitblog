@@ -1,4 +1,4 @@
-### windows系统下解决bash中文乱码问题
+## windows系统下解决bash中文乱码问题
 
 找到git bash安装目录下的bash.bashrc配置文件，末尾添加
 
