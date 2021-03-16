@@ -6,7 +6,7 @@
 
 ![logo](./assets/hug_m.png)
 
-# 欢迎来到jke的Blog.
+# 欢迎来到KeJun的Blog.
 
 <!-- 
 [GitHub](https://github.com/docsifyjs/docsify/)
