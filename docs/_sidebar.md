@@ -10,7 +10,8 @@
   **Common**
     * [windows系统下解决bash中文乱码问题](src/md/common)
     * [WebApp项目(vue、vant)](src/md/mzqh5)
-    * [SQL转换器(黑客马拉松大赛)](src/md/sql_translate)
+    * [SQL转换器-黑客马拉松大赛(React、Antd、TypeScript)](src/md/sql_translate)
+    * [Taro开发微信小程序(React、Taro、TypeScript)](src/md/taro_wechat)
 
   **前端代码**
   
