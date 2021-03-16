@@ -127,7 +127,6 @@ class UpdateCache extends Subscription {
   // └───────────────────────── second (0 - 59, optional)
   static get schedule() {
     return {
-      // 每三小时准点执行一次
       cron: '0 0,30 9,10,11,13,14,15 * * 1,2,3,4,5 ',
       // interval: '1h', // 1 分钟间隔
       type: 'all', // 指定所有的 worker 都需要执行
@@ -138,7 +137,7 @@ class UpdateCache extends Subscription {
   // subscribe 是真正定时任务执行时被运行的函数
   async subscribe() {
     const arr = [];
-    const list = await this.ctx.service.fund.getAll({ userId: '5ef2c2fc29e197fdb0712ffb' });
+    const list = await this.ctx.service.fund.getAll({ userId: '******' });
     let index = 0;
     for (const item of list) {
       const { code, min, max } = item;
