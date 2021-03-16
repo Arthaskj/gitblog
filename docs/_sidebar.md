@@ -26,6 +26,16 @@
     * [2019.10.17IndexedDb封装](src/study/2019.10.17IndexedDb封装)
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
   
+  **Node折腾**
+
+    * [Express实现后台服务](src/md/node/express)
+    * [Express实现后台服务(TypeScript)](src/md/node/express_typescript)
+    * [Egg后台服务](src/md/node/egg)
+    * [Midway后台服务](src/md/node/midway)
+    * [对接微信公众号](src/md/node/weChat)
+    * [对接微信小程序](src/md/node/mini)
+    * [邮件发送](src/md/node/mail)
+
   **自动部署**
   
     * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
