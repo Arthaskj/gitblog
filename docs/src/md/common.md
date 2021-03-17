@@ -1,4 +1,7 @@
+
 ## windows系统下解决bash中文乱码问题
+
+{docsify-updated}
 
 <script>
   console.log(this)
@@ -25,6 +28,7 @@
 
 
 找到git bash安装目录下的bash.bashrc配置文件，末尾添加
+
 
 ```bash
 export LANG="zh_CN.UTF-8"

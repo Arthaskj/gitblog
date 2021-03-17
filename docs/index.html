@@ -68,16 +68,17 @@
       // mergeNavbar: true,//小屏幕导航栏移动到侧边栏
       auto2top: true, //跳转页面自动返回顶部
       notFoundPage: 'my404.md', //自定义404页面
+      requestHeaders: {
+        'cache-control': 'max-age=600',
+      },
 
-      formatUpdated: '{MM}/{DD} {HH}:{mm}', //格式化时间{docsify-updated}
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}', //格式化时间{docsify-updated}
       plugins: [
         function(hook) {
           var footer = [
             '<hr/>',
             '<footer style="text-align: center;">',
             `<span><a href="https://github.com/Arthaskj/gitblog/" target="_blank">KJ-Blog</a> &copy;2018-${new Date().getFullYear()}</span><br />`,
-            '<span>Proudly published with <a href="https://github.com/Arthaskj" target="_blank">Arthaskj</a>.</span>',
-            '<span style="margin-left:20px;"><b title="'+window.pageViews+'"> '+(window.pageViews && window.pageViews > 999999 ? '999999+' : window.pageViews || '--')+' </b>次访问</span>',
             '<div><a href="http://www.beian.miit.gov.cn">皖ICP备18015692号-1</a></div>'+
             '<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv" style="font-weight: bold;"></span>次 &nbsp;   </span>' +
             '<span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv" style="font-weight: bold;"></span>人次</span>'+
@@ -88,21 +89,17 @@
             return html + footer
           })
         },
-        // function(hook) {
-        //   var content = [
-        //     '> 作者：Arthaskj',
-        //     '<br />',
-        //     `时间：2021/02/26`,
-        //     '<br />',
-        //     `<hr/>`,
-        //   ].join('');
+        function(hook) {
+          var content = [
+            `> 作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;者: Arthaskj`,
+            `<br />`,
+            `更新时间: {docsify-updated}\n`,
+          ].join('');
 
-        //   hook.beforeEach(function(html) {
-        //     return `${content}
-            
-        //     ${html}`;
-        //   })
-        // },
+          hook.beforeEach(function(html) {
+            return content + html;
+          })
+        },
       ],
       // markdown: {
       //   renderer: {
