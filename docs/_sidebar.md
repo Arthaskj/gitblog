@@ -15,6 +15,7 @@
     * [Vant开发微信小程序(React、Vant)](src/md/vant_wechat)
     * [Uni开发尝试(Vue、Uview-ui)](src/md/uni_prod)
     * [使用Docsify部署博客网站](src/md/docsify)
+    * [开发浏览量统计接口](src/md/views)
 
   **前端代码**
   
