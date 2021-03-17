@@ -80,8 +80,6 @@
             '<footer style="text-align: center;">',
             `<span><a href="https://github.com/Arthaskj/gitblog/" target="_blank">KJ-Blog</a> &copy;2018-${new Date().getFullYear()}</span><br />`,
             '<div><a href="http://www.beian.miit.gov.cn">皖ICP备18015692号-1</a></div>'+
-            '<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv" style="font-weight: bold;"></span>次 &nbsp;   </span>' +
-            '<span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv" style="font-weight: bold;"></span>人次</span>'+
             '</footer>'
           ].join('')
 
@@ -93,7 +91,9 @@
           var content = [
             `> 作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;者: Arthaskj`,
             `<br />`,
-            `更新时间: {docsify-updated}\n`,
+            `更新时间: {docsify-updated}`,
+            '<br /><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv" style="font-weight: bold;"></span>次 &nbsp;   </span>',
+            '<br /><span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv" style="font-weight: bold;"></span>人次</span>\n',
           ].join('');
 
           hook.beforeEach(function(html) {
