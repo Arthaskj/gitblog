@@ -28,7 +28,6 @@
 
 </head>
 <script type="module" src="./index.js"></script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <body>
   <div id="app">正在加载，请稍后。。。</div>
@@ -94,13 +93,23 @@
             `更新时间: {docsify-updated}`,
             '<br /><span id="busuanzi_container_page_pv">当前页访问量<span id="busuanzi_value_page_pv" style="font-weight: bold;"></span>次 &nbsp;   </span>',
             '<br /><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv" style="font-weight: bold;"></span>次 &nbsp;   </span>',
-            '<br /><span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv" style="font-weight: bold;"></span>人次</span>\n',
+            '\n',
           ].join('');
 
           hook.beforeEach(function(html) {
             return content + html;
           })
         },
+        function(hook) {
+          hook.doneEach(function() {
+            fetch(`/api/system/UpdateStorage?host=${window.location.host}&hash=${window.location.hash.replace('#','arthas')}`)
+            .then(res => res.json()).then(res => {
+              const { pv, sv } = res.data;
+              document.querySelector('#busuanzi_value_page_pv').innerHTML = pv;
+              document.querySelector('#busuanzi_value_site_pv').innerHTML = sv;
+            })
+          })
+        }
       ],
       // markdown: {
       //   renderer: {
