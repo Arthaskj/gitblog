@@ -56,7 +56,7 @@ docsify是一个博客框架，相比于其他博客框架，他是在运行时�
       },
       logo: './assets/trash_m.jpg', //侧边栏出现的图标
       name: 'Arthaskj',
-      repo: 'https://github.com/Arthaskj/gitblog/', //在右上角添加github图标
+      repo: 'https://github.com/****/gitblog/', //在右上角添加github图标
 
       loadSidebar: true, //显示侧边栏
       alias: {
@@ -83,8 +83,8 @@ docsify是一个博客框架，相比于其他博客框架，他是在运行时�
           var footer = [
             '<hr/>',
             '<footer style="text-align: center;">',
-            `<span><a href="https://github.com/Arthaskj/gitblog/" target="_blank">KJ-Blog</a> &copy;2017-${new Date().getFullYear()}</span><br />`,
-            '<div><a href="http://www.beian.miit.gov.cn">皖ICP备18015692号-1</a></div>'+
+            `<span><a href="https://github.com/***/gitblog/" target="_blank">KJ-Blog</a> &copy;2017-${new Date().getFullYear()}</span><br />`,
+            '<div><a href="http://www.beian.miit.gov.cn">***</a></div>'+
             '</footer>'
           ].join('')
 
@@ -134,13 +134,13 @@ docsify是一个博客框架，相比于其他博客框架，他是在运行时�
   <!--分页导航-->
   <script src="lib/js/docsify-pagination.min.js"></script>
 
-<!-- 本来打算使用gitalk来作为博客的评论系统，但是国内效果并不是很好~座椅最后可能会自己写一个组件 -->
+<!-- 本来打算使用gitalk来作为博客的评论系统，但是国内效果并不是很好~所以最后可能会自己写一个组件 -->
 <!-- <script src="lib/js/gitalk.min.js"></script>
 <script src="lib/js/gitalklib.min.js"></script>
 <script>
   const gitalk = new Gitalk({
-    clientID: 'b31616c8beae84e76282',
-    clientSecret: '17acd425129b6a57f198e8d62c8b28602be04b9a',
+    clientID: '***',
+    clientSecret: '***',
     repo: 'gitblog',
     owner: 'Arthaskj',
     admin: ['Arthaskj'],
