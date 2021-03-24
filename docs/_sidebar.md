@@ -9,6 +9,7 @@
 * 一、技巧  
   **Common**
     * [windows系统下解决bash中文乱码问题](src/md/common)
+    * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
     * [WebApp项目(vue、vant)](src/md/mzqh5)
     * [SQL转换器-黑客马拉松大赛(React、Antd、TypeScript)](src/md/sql_translate)
     * [Taro开发微信小程序(React、Taro、TypeScript)](src/md/taro_wechat)
@@ -20,6 +21,7 @@
     * [qiankun微前端框架学习](src/md/qiankun)
     * [针对Jquery老项目使用gulp进行打包](src/md/gulp)
     * [webComponent开发](src/md/webComponent)
+    * [taro_vue开发小程序](src/md/taro_vue)
     * [tips](src/md/tips)
 
   **前端代码**
@@ -48,10 +50,6 @@
     * [对接微信小程序](src/md/node/mini)
     * [邮件发送](src/md/node/mail)
 
-  **自动部署**
-  
-    * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
-  
   **WSL**
     * [开启win10下Ubuntu子系统的SSH服务](src/md/wsl/开启win10下Ubuntu子系统的SSH服务)
     * [win10下linux_wsl子系统开机启动ssh服务](src/md/wsl/win10_linux_wsl子系统开机启动ssh服务)
