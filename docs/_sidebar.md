@@ -10,6 +10,7 @@
   **Common**
     * [windows系统下解决bash中文乱码问题](src/md/common)
     * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
+    * [京东云云计算中级工程师](src/md/certificate)
     * [WebApp项目(vue、vant)](src/md/mzqh5)
     * [SQL转换器-黑客马拉松大赛(React、Antd、TypeScript)](src/md/sql_translate)
     * [Taro开发微信小程序(React、Taro、TypeScript)](src/md/taro_wechat)
