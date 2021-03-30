@@ -23,6 +23,7 @@
     * [针对Jquery老项目使用gulp进行打包](src/md/gulp)
     * [webComponent开发](src/md/webComponent)
     * [taro_vue开发小程序](src/md/taro_vue)
+    * [vuex](src/md/vuex)
     * [tips](src/md/tips)
 
   **前端代码**
