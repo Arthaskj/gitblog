@@ -23,6 +23,9 @@
     * [针对Jquery老项目使用gulp进行打包](src/md/gulp)
     * [webComponent开发](src/md/webComponent)
     * [taro_vue开发小程序](src/md/taro_vue)
+    * [花生壳内网映射让树莓派可以被外网访问](src/study/花生壳内网映射让树莓派可以被外网访问)
+    * [IKBC Poker键盘加背光灯](src/skill/keyboard)
+    * [Github作为MarkDown图床](src/study/githubWithMD)
     * [vuex](src/md/vuex)
     * [tips](src/md/tips)
 
@@ -96,17 +99,11 @@
     * [树莓派硬件编程](src/study/raspi)
     * [树莓派Mac下安装以及配置](src/study/树莓派Mac下安装以及配置)
     * [树莓派下安装node和npm](src/study/树莓派下安装node和npm)
-    * [花生壳内网映射让树莓派可以被外网访问](src/study/花生壳内网映射让树莓派可以被外网访问)
   
   **GitHub**
-    * [Github作为MarkDown图床](src/study/githubWithMD)
     * [常用指令](src/study/githubCmd)
   
-* 二、技术宅
-  
-* [IKBC Poker键盘加背光灯](src/skill/keyboard)
-  
-* 四、代码规范
+* 二、代码规范
   * [Eslint 使用](src/norm/Eslint)
   * [Airbnb CSS/Sass](src/norm/Css)
   * [Airbnb JavaScript指南](src/norm/JavaScript)
