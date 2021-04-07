@@ -53,6 +53,8 @@ git remote add origin2 git@gitee.com:zhangamie/testApp2.git
 git push origin2
 git checkout dev
 git push origin2
+
+git remote set-url --add origin <远程仓库地扯>
 ...
 ```
 
