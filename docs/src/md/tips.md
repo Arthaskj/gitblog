@@ -42,3 +42,36 @@
 "严格模式"体现了Javascript更合理、更安全、更严谨的发展方向，包括IE 10在内的主流浏览器，都已经支持它，许多大项目已经开始全面拥抱它。
 
 另一方面，同样的代码，在"严格模式"中，可能会有不一样的运行结果；一些在"正常模式"下可以运行的语句，在"严格模式"下将不能运行。掌握这些内容，有助于更细致深入地理解Javascript，让你变成一个更好的程序员。
+
+
+
+# 闭包（Closures）
+
+**闭包**就是**可以访问另一个函数作用域中的变量函数**。
+
+```js
+function A(){
+var money=10000;
+    function set(){
+money=money+10;
+return money
+}
+function get(){
+    money=money-10;
+return money;
+}
+return {
+'set':set,
+'get':get
+}
+}
+console.log(A.set())
+```
+
+优点：保护函数内的**变量安全**,加强了**封装性**，变量可以**一直存储在内存**中。
+
+缺点：处理不好容易造成`内存泄漏`
+
+
+
+# 异步编程（Async programming）和回调（callbacks）
