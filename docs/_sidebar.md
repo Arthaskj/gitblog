@@ -29,6 +29,7 @@
     * [IKBC Poker键盘加背光灯](src/skill/keyboard)
     * [Github作为MarkDown图床](src/study/githubWithMD)
     * [Gitalk](src/md/gitalk)
+    * [封装Element的Table和Pagination](src/md/gridpage)
     * [Webpack打包](src/study/webpack)
     * [Gulp打包](src/study/gulppack)
     * [vuex](src/md/vuex)
