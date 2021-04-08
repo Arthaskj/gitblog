@@ -28,6 +28,7 @@
     * [花生壳内网映射让树莓派可以被外网访问](src/study/花生壳内网映射让树莓派可以被外网访问)
     * [IKBC Poker键盘加背光灯](src/skill/keyboard)
     * [Github作为MarkDown图床](src/study/githubWithMD)
+    * [Gitalk](src/md/gitalk)
     * [Webpack打包](src/study/webpack)
     * [Gulp打包](src/study/gulppack)
     * [vuex](src/md/vuex)
