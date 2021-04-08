@@ -75,3 +75,56 @@ console.log(A.set())
 
 
 # 异步编程（Async programming）和回调（callbacks）
+
+JavaScript`synchronous`默认是，并且是`single threaded`。这意味着代码无法创建新线程并不能并行运行。
+
+每一行代码都是依次执行的，这种执行流程也称为`Blocking Code/Mode`。
+
+回调无处不在，不仅在DOM事件中使用。
+
+一个常见的示例是使用计时器：
+
+```js
+setTimeout(() => {
+
+  // runs after 2 seconds
+
+}, 2000)
+```
+
+
+
+# 循环（Loops）和作用域（Scope）
+
+作用域，就是变量或者是函数能作用的范围。除了函数中定义的变量之外，都是全局作用域。
+
+```js
+//经典例子
+for(var i=0;i<4;i++){
+    setTimeout(function(){
+    	console.log(i);
+    },200);
+}
+//4 4 4 4
+
+//利用函数形成函数作用域
+for(var i=0;i<4;i++){
+    (function(j){
+            setTimeout(function(){
+    	console.log(j);
+    },200);
+    })(i)
+}
+//0 1 2 3
+
+//利用let形成块级作用域
+for(leti=0;i<4;i++){
+    setTimeout(function(){
+    	console.log(i);
+    },200);
+}
+//0 1 2 3
+```
+
+## 作用域链
+当查找变量的时候，会先从当前作用域的变量对象中查找，如果没有找到，就会从父级作用域(上层环境)的变量对象中查找，一直找到全局作用域的变量对象，也就是全局对象。这样由多个作用域的变量对象构成的链表就叫做作用域链。它由当前环境与上层环境的一系列变量对象组成，保证了当前执行环境对符合访问权限的变量和函数的有序访问。
