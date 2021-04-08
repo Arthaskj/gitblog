@@ -23,6 +23,7 @@
     * [针对Jquery老项目使用gulp进行打包](src/md/gulp)
     * [webComponent开发](src/md/webComponent)
     * [taro_vue开发小程序](src/md/taro_vue)
+    * [taro_vue开发小程序(二)](src/md/taro_vue2)
     * [微信公众号开发](src/md/wechat_platform)
     * [花生壳内网映射让树莓派可以被外网访问](src/study/花生壳内网映射让树莓派可以被外网访问)
     * [IKBC Poker键盘加背光灯](src/skill/keyboard)
