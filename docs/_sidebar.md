@@ -32,6 +32,7 @@
     * [封装Element的Table和Pagination](src/md/gridpage)
     * [Webpack打包](src/md/webpack)
     * [Nginx搭建图片服务器](src/md/nginx_images)
+    * [使用Docker部署前端项目](src/md/docker_web)
     * [Gulp打包](src/md/gulppack)
     * [vuex](src/md/vuex)
     * [Node爬虫](src/md/node_cheerio)
