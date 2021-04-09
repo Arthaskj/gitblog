@@ -31,6 +31,7 @@
     * [Gitalk](src/md/gitalk)
     * [封装Element的Table和Pagination](src/md/gridpage)
     * [Webpack打包](src/study/webpack)
+    * [Nginx搭建图片服务器](src/study/nginx_images)
     * [Gulp打包](src/study/gulppack)
     * [vuex](src/md/vuex)
     * [Node爬虫](src/md/node_cheerio)
