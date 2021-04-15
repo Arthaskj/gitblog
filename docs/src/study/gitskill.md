@@ -16,6 +16,9 @@ git push origin :dbg_lichen_star   //删除远程分支
 git tag
 git tag -a tagname -m 'tagDec'
 git push origin --tags    ||   git push origin tagname
+
+// 拉取指定分支代码
+git fetch origin dev:dev
 ```
 
 
