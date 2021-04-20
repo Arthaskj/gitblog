@@ -36,6 +36,7 @@
     * [Form下载文件](src/md/form_file)
     * [CentOS7安装Redis](src/md/centos_redis)
     * [CentOS7防火墙操作](src/md/centos_firewalld)
+    * [EggJs操作Redis](src/md/egg_redis)
     * [Css样式](src/md/css)
     * [Flex布局](src/md/flex)
     * [Gulp打包](src/md/gulppack)
