@@ -18,6 +18,7 @@
     * [Uni开发尝试(Vue、Uview-ui)](src/md/uni_prod)
     * [使用Docsify部署博客网站](src/md/docsify)
     * [开发浏览量统计接口](src/md/views)
+    * [开发浏览量统计接口-使用redis替换mongodb](src/md/views_redis)
     * [electron开发](src/md/electron)
     * [qiankun微前端框架学习](src/md/qiankun)
     * [针对Jquery老项目使用gulp进行打包](src/md/gulp)
