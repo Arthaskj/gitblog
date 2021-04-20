@@ -38,6 +38,7 @@
     * [CentOS7安装Redis](src/md/centos_redis)
     * [CentOS7防火墙操作](src/md/centos_firewalld)
     * [EggJs操作Redis](src/md/egg_redis)
+    * [Egg搭配Redis进行验证码校验](src/md/redis_code)
     * [Css样式](src/md/css)
     * [Flex布局](src/md/flex)
     * [Gulp打包](src/md/gulppack)
