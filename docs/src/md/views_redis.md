@@ -113,3 +113,7 @@ this.service.redis.set('systemTotal', datas.map(x => x.pv).reduce((a, b) => a + 
 效果
 
 ![image-20210420143821708](views_redis.assets/image-20210420143821708.png)
+
+
+
+换成redis后速度大幅提升，ms级显示
