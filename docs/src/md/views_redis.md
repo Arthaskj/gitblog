@@ -63,11 +63,11 @@ class RedisService extends Service {
     // seconds 有效时长
     const { redis } = this.app;
     value = JSON.stringify(value);
-    if (!seconds) {
-      await redis.set(key, value);
-    } else {
-      // 设置有效时间
-      await redis.set(key, value, 'EX', seconds);
+
+    await redis.set(key, value);
+    // 设置过期时间
+    if (seconds) {
+      await redis.expire(key, seconds);
     }
   }
 
