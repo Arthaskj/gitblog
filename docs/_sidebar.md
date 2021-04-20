@@ -34,6 +34,7 @@
     * [Nginx搭建图片服务器](src/md/nginx_images)
     * [使用Docker部署前端项目](src/md/docker_web)
     * [Form下载文件](src/md/form_file)
+    * [CentOS7安装Redis](src/md/centos_redis)
     * [Css样式](src/md/css)
     * [Flex布局](src/md/flex)
     * [Gulp打包](src/md/gulppack)
