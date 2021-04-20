@@ -11,11 +11,16 @@ git checkout -b localname onlinename
 git checkout -b dbg_lichen_star  //本地创建新分支
 git push origin dbg_lichen_star:dbg_lichen_star  //推送到远程分支 
 git push origin :dbg_lichen_star   //删除远程分支
+git push origin --delete release-0.1.0   //删除远程分支
 
 //git创建tag
 git tag
 git tag -a tagname -m 'tagDec'
 git push origin --tags    ||   git push origin tagname
+
+#--no-ff：不使用fast-forward方式合并，保留分支的commit历史
+#--squash：使用squash方式合并，把多次分支commit历史压缩为一次
+git merge --no-ff feature
 
 // 拉取指定分支代码
 git fetch origin dev:dev
