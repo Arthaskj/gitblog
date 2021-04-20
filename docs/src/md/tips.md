@@ -131,3 +131,15 @@ for(leti=0;i<4;i++){
 
 
 
+## 取范围内随机整数
+
+```js
+function GetRandomNum(start, end) {
+    const range = end - start;
+    return Math.floor(Math.random() * range + start);
+}
+
+// 取100000~999999之间的随机整数
+GetRandomNum(100000, 999999)
+```
+
