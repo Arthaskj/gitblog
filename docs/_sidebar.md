@@ -41,7 +41,7 @@
     * [Egg搭配Redis进行验证码校验](src/md/redis_code)
     * [Css样式](src/md/css)
     * [Flex布局](src/md/flex)
-    * [Gulp打包](src/md/gulppack)
+    * [Gulp打包](src/md/gulp)
     * [vuex](src/md/vuex)
     * [Node爬虫](src/md/node_cheerio)
     * [tips](src/md/tips)
