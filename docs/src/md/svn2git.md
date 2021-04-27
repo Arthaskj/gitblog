@@ -1,6 +1,6 @@
 
 # SVN仓库无损迁移到GIT仓库
-`git-svn`
+公司之前的项目都是放在svn上，现在要求将代码迁移到Git仓库，并且保留svn提交记录，经过查询，发现可以使用`git-svn`来解决这个问题。
 
 
 
@@ -13,6 +13,8 @@ git svn clone -r svn地址 --no-metadata
 git svn clone -r 35125:HEAD svn地址 --no-metadata
 
 ```
+
+如果旧的项目很庞大的话迁移时间
 
 
 
