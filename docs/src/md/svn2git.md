@@ -41,3 +41,6 @@ git svn fetch # 取回远程仓库所有分支的变化
 git svn rebase # 取回远程仓库当前分支的变化，并与本地分支变基合并
 ```
 
+![image-20210427112121754](svn2git.assets/image-20210427112121754.png)
+
+![image-20210427112323551](svn2git.assets/image-20210427112323551.png)
