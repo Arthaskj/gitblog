@@ -22,6 +22,10 @@ git push origin --tags    ||   git push origin tagname
 #--squash：使用squash方式合并，把多次分支commit历史压缩为一次
 git merge --no-ff feature
 
+git rebase -i <commit版本号>
+# 将pick改为s，只留一个pick
+# 精简注释
+
 // 拉取指定分支代码
 git fetch origin dev:dev
 ```

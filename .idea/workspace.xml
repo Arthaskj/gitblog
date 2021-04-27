@@ -39,7 +39,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,6 +58,7 @@
       <workItem from="1603438830462" duration="691000" />
       <workItem from="1614922606499" duration="1222000" />
       <workItem from="1614932301378" duration="3165000" />
+      <workItem from="1619511125642" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="feature: 首页更新 --kci--">
       <created>1614922919732</created>
@@ -103,24 +106,21 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature: 首页更新 --kci--" />
     <option name="LAST_COMMIT_MESSAGE" value="feature: 首页更新 --kci--" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="556" y="25" key="CommitChangelistDialog2" timestamp="1615165539323">
-      <screen x="0" y="25" width="1920" height="998" />
-    </state>
-    <state x="556" y="25" key="CommitChangelistDialog2/-1440.205.1440.875/0.25.1920.998@0.25.1920.998" timestamp="1615165539323" />
-    <state x="192" y="110" key="DiffContextDialog" timestamp="1614938023325">
-      <screen x="0" y="25" width="1920" height="998" />
-    </state>
-    <state x="192" y="110" key="DiffContextDialog/-1440.205.1440.875/0.25.1920.998@0.25.1920.998" timestamp="1614938023325" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615165542075">
-      <screen x="0" y="25" width="1920" height="998" />
-    </state>
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2/-1440.205.1440.875/0.25.1920.998@0.25.1920.998" timestamp="1615165542075" />
   </component>
 </project>
