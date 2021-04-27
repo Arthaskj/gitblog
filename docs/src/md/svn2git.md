@@ -44,3 +44,15 @@ git svn rebase # 取回远程仓库当前分支的变化，并与本地分支变
 ![image-20210427112121754](svn2git.assets/image-20210427112121754.png)
 
 ![image-20210427112323551](svn2git.assets/image-20210427112323551.png)
+
+
+
+## 后续提交处理
+
+如果后续在svn仓库上又提交了代码，可以直接使用`merge`或者`cherry-pick`进行代码同步。此时的svn仓库就是git仓库中的一个分支，分支名称`git-svn`。
+
+![image-20210427135404526](svn2git.assets/image-20210427135404526.png)
+
+![image-20210427135246729](svn2git.assets/image-20210427135246729.png)
+
+![image-20210427135317485](svn2git.assets/image-20210427135317485.png)
