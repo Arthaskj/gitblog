@@ -42,6 +42,7 @@
     * [SVN仓库无损迁移到GIT仓库](src/md/svn2git)
     * [VUE优化](src/md/vue_optimize)
     * [NPM](src/md/npm)
+    * [事件循环](src/md/event_loop)
     * [Css样式](src/md/css)
     * [Flex布局](src/md/flex)
     * [Gulp打包](src/md/gulp)
