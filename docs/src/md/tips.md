@@ -385,3 +385,48 @@ fn(); // 错误
 
 - **Loader**在module.rules中配置，也就是说他作为模块的解析规则而存在。 类型为数组，每一项都是一个Object，里面描述了对于什么类型的文件（test），使用什么加载(loader)和使用的参数（options）
 - **Plugin**在plugins中单独配置。 类型为数组，每一项是一个plugin的实例，参数都通过构造函数传入。
+
+
+
+## .sync
+
+vue 修饰符sync的功能是：当一个子组件改变了一个 prop 的值时，这个变化也会同步到父组件中所绑定。如果我们不用.sync，我们想做上面的那个弹窗功能，我们也可以props传初始值，然后事件监听，实现起来也不算复杂。这里用sync实现，只是给大家提供一个思路，让其明白他的实现原理，可能有其它复杂的功能适用sync。
+
+```js
+<template>
+    <div class="details">
+        <myComponent :show.sync='valueChild' style="padding: 30px 20px 30px 5px;border:1px solid #ddd;margin-bottom: 10px;"></myComponent>
+        <button @click="changeValue">toggle</button>
+    </div>
+</template>
+<script>
+import Vue from 'vue'
+Vue.component('myComponent', {
+      template: `<div v-if="show">
+                    <p>默认初始值是{{show}}，所以是显示的</p>
+                    <button @click.stop="closeDiv">关闭</button>
+                 </div>`,
+      props:['show'],
+      methods: {
+        closeDiv() {
+          this.$emit('update:show', false); //触发 input 事件，并传入新值
+        }
+      }
+})
+export default{
+    data(){
+        return{
+            valueChild:true,
+        }
+    },
+    methods:{
+        changeValue(){
+            this.valueChild = !this.valueChild
+        }
+    }
+}
+</script>
+```
+
+
+
