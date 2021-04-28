@@ -41,6 +41,7 @@
     * [Egg搭配Redis进行验证码校验](src/md/redis_code)
     * [SVN仓库无损迁移到GIT仓库](src/md/svn2git)
     * [VUE优化](src/md/vue_optimize)
+    * [NPM](src/md/npm)
     * [Css样式](src/md/css)
     * [Flex布局](src/md/flex)
     * [Gulp打包](src/md/gulp)
