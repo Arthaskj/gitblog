@@ -87,3 +87,4 @@ nrm del  [name] 删除对应的源
 
 
 ![image-20210428090608010](npm.assets/image-20210428090608010.png)
+
