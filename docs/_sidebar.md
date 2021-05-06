@@ -6,7 +6,7 @@
  * @Description:
  -->
 
-* 一、技巧  
+* 一、文章  
   **Common**
     * [windows系统下解决bash中文乱码问题](src/md/common)
     * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
