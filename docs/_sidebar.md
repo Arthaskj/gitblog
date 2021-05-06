@@ -54,6 +54,7 @@
     * [对接微信公众号](src/md/node/weChat)
     * [对接微信小程序](src/md/node/mini)
     * [邮件发送](src/md/node/mail)
+    * [windows下好用软件推荐](src/md/windows_soft)
     * [tips](src/md/tips)
 
   **前端代码**
