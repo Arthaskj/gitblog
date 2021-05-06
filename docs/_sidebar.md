@@ -31,6 +31,7 @@
     * [Gitalk](src/md/gitalk)
     * [封装Element的Table和Pagination](src/md/gridpage)
     * [Nginx搭建图片服务器](src/md/nginx_images)
+    * [Nginx配置](src/md/nginx_config)
     * [使用Docker部署前端项目](src/md/docker_web)
     * [Form下载文件](src/md/form_file)
     * [CentOS7安装Redis](src/md/centos_redis)
