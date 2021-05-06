@@ -46,6 +46,13 @@
     * [Gulp打包](src/md/gulp)
     * [vuex](src/md/vuex)
     * [Node爬虫](src/md/node_cheerio)
+    * [Express实现后台服务](src/md/node/express)
+    * [Express实现后台服务(TypeScript)](src/md/node/express_typescript)
+    * [Egg后台服务](src/md/node/egg)
+    * [Midway后台服务](src/md/node/midway)
+    * [对接微信公众号](src/md/node/weChat)
+    * [对接微信小程序](src/md/node/mini)
+    * [邮件发送](src/md/node/mail)
     * [tips](src/md/tips)
 
   **前端代码**
@@ -64,16 +71,6 @@
     * [2019.10.17IndexedDb封装](src/study/2019.10.17IndexedDb封装)
     * [2019.10.17倒计时计时器](src/study/2019.10.17倒计时计时器)
   
-  **Node折腾**
-
-    * [Express实现后台服务](src/md/node/express)
-    * [Express实现后台服务(TypeScript)](src/md/node/express_typescript)
-    * [Egg后台服务](src/md/node/egg)
-    * [Midway后台服务](src/md/node/midway)
-    * [对接微信公众号](src/md/node/weChat)
-    * [对接微信小程序](src/md/node/mini)
-    * [邮件发送](src/md/node/mail)
-
   **WSL**
     * [开启win10下Ubuntu子系统的SSH服务](src/md/wsl/开启win10下Ubuntu子系统的SSH服务)
     * [win10下linux_wsl子系统开机启动ssh服务](src/md/wsl/win10_linux_wsl子系统开机启动ssh服务)
@@ -118,9 +115,6 @@
     * [树莓派硬件编程](src/study/raspi)
     * [树莓派Mac下安装以及配置](src/study/树莓派Mac下安装以及配置)
     * [树莓派下安装node和npm](src/study/树莓派下安装node和npm)
-  
-  **GitHub**
-    * [常用指令](src/study/githubCmd)
   
 * 二、代码规范
   * [Eslint 使用](src/norm/Eslint)
