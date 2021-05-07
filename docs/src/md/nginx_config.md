@@ -1,5 +1,7 @@
 # Nginx配置
 
+> nginx.conf
+
 ```nginx
 #user www-data;
 worker_processes 1;
@@ -68,6 +70,8 @@ http {
 ```
 
 
+
+> trade.conf
 
 ```nginx
 server {
