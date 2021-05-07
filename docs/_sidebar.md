@@ -55,6 +55,7 @@
     * [对接微信小程序](src/md/node/mini)
     * [邮件发送](src/md/node/mail)
     * [windows下好用软件推荐](src/md/windows_soft)
+    * [Linux硬件信息](src/md/linux_cmd)
     * [tips](src/md/tips)
 
   **前端代码**
