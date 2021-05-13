@@ -32,6 +32,43 @@ git fetch origin dev:dev
 
 
 
+## Git Alisa 设置别名
+
+```shell
+# 获得非常漂亮的日志。
+git config --global alias.plg "log --graph --pretty=format:'%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen| %cr %C(bold blue)| %an%Creset' --abbrev-commit --date=relative"
+
+# 使用--no-edit标志进行修改，可以在最近一次提交时在仓库中提交新的更改，你不需要再次重复提交消息。
+git config --global alias.commend 'commit --amend --no-edit'
+
+# 带有--orphan 标志的git checkout允许您创建一个分支，而没有来自父分支的任何历史记录。
+git config --global alias.newbie 'checkout --orphan'
+
+# 带有--single-branch --branch标志的git clone允许你从存储库中clone特定分支，当然是减少clone时间
+git config --global alias.clonely 'clone --single-branch --branch'
+
+[alias]
+        co = checkout
+        st = status
+        ca = add
+        cc = commit
+        brv = branch --v
+        geturl = config --get remote.origin.url
+        cbuild = "git add . && git commit -m '--kci--' && git push"
+        recommit = commit --amend -m
+        commend = commit --amend --no-edit
+        here = !git init && git add . && git commit -m \"Initialized a new repository\"
+        search = grep
+        who = blame
+        zip = archive --format=tar.gz -o ../repo.tar.gz
+        lonely = clone --single-branch --branch
+        plg = log --graph --pretty=format:'%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen| %cr %C(bold blue)| %an%Creset' --abbrev-commit --date=relative
+        fresh = filter-branch --prune-empty --subdirectory-filter
+
+```
+
+
+
 
 
 ### 带历史记录的迁移git仓库
