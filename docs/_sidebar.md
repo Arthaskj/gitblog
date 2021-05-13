@@ -57,7 +57,7 @@
     * [windows下好用软件推荐](src/md/windows_soft)
     * [Linux硬件信息](src/md/linux_cmd)
     * [SSH、SCP执行远程服务器命令](src/md/ssh_cmd)
-    * [tips](src/md/tips)
+    
 
   **前端代码**
   
