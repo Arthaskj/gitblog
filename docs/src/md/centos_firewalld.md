@@ -2,6 +2,7 @@
 
 ```shell
 netstat -anp  # 查询已开放的端口
+netstat -tnlp # 查询已开放的端口
 firewall-cmd --query-port=666/tcp # 查询指定端口是否已开  提示 yes，表示开启；no表示未开启。
 
 firewall-cmd --add-port=123/tcp --permanent # 添加指定需要开放的端口
