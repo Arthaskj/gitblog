@@ -60,7 +60,6 @@
     
 
   **前端代码**
-  
     * [右键菜单功能](src/study/vue右键菜单)
     * [Git分支操作](src/study/gitskill)
     * [返回Promise.then的值](src/study/返回Promise.then的值)
@@ -80,12 +79,10 @@
     * [win10下linux_wsl子系统开机启动ssh服务](src/md/wsl/win10_linux_wsl子系统开机启动ssh服务)
   
   **Mongodb**
-  
     * [mongoose增删改查操作](src/study/mongoose)
     * [mongoose-find指令](src/md/mongodb/find)
   
   **EggJs**
-  
     * [EggJs项目部署](src/study/eggjsDeploy)
     * [EggJs项目使用mongoose](src/study/eggjsMongoose)
   
