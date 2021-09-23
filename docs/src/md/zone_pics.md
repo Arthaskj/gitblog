@@ -6,7 +6,7 @@
 
 首先我们打开浏览器控制台访问扣扣相册，通过分析`network`的请求信息拿到查询相册的接口，经过分析，很容易看出获取相册信息的接口就是
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtZwh5J9nbictmjs2Szibd3ByWfaZbp5HIHq3oEqB13n3xIGicBFkECUHmw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640)
 
 ``
 
@@ -38,17 +38,17 @@
 
 不出意外会跳转到一个新的浏览器tab，这时候地址栏里的就是原图链接，可以发现原图都是`http://r.photo.store.qq.com/`的地址。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtnuktfyjo1icxPoBHd32YqouRsNnROmqaKiaQMkk000YTzml0nr9M3ruQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640-16323595400282)
 
 再看看我们拿到的数据里，只有`row`这个字段符合要求，所以他就是原图链接
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtiaibAZ3uBYhXOYX2UCRMGs2a54MHAQL31GpP4UgWiapseNHbzuwW9p74g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640-16323595431914)
 
 ## 数据格式化 
 
 拿到数据后我还需要进行数据格式化，这一步因人而异，怎么方便怎么来，最终目的是格式化成下载器能识别的路径。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtW5HicS5bnxhb4b53dc5saZDh8Fj73xuFRNo1Z8yN8csPkIUdUr0dplw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640-16323595447516)
 
 格式化完成后就是一串换行风格的链接文件
 
@@ -62,8 +62,8 @@
 
 这里要注意一点就是需要下载的图片很多，为了跟你以前的下载文件区分开，最好重新设置一下下载目录，这样就不会很多文件乱在一起无法分别了。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtvWQ6uNDnVwkjoBYdITIicSYTOoiaYLRuSovztG0fFhdKicW7dxicElqu3Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640-16323595466678)
 
 直接将格式化好的文本复制进去就可以等待下载完成了，还是很方便的~
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtY0tUlfP2QoUnic9KtLGnT1Q9yYuq6eEjgD18aAib0GmNiaFEhxqqmxPVQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640-163235954848710)
