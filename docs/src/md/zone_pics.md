@@ -6,7 +6,7 @@
 
 首先我们打开浏览器控制台访问扣扣相册，通过分析`network`的请求信息拿到查询相册的接口，经过分析，很容易看出获取相册信息的接口就是
 
-![图片](zone_pics.assets/640)
+![图片](zone_pics.assets/640-163235964578812)
 
 ``
 
@@ -14,9 +14,9 @@
 
 知道接口后我们就可以多请求几次看看他的入参都有什么。
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](zone_pics.assets/640-163235964780014)
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtO9sUQ155iaWjptcU90XSpYRrIib7CRaNnyPYY3sZjckjzfHGyd5aHvPg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 这里我们可以敏锐的察觉到每次滑动滚轮时这两个参数会发生变化，熟悉前端可能一眼就能看出来这两个字段是干什么的，没错，他们就是分页查询所必须的字段，这里为了性能，扣扣相册做了懒加载，每次只查询少量数据，那么到了我们手上，直接改到最大就行。
 
@@ -26,7 +26,7 @@
 
 好的，现在直接将连接丢到浏览器中看看。
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](zone_pics.assets/640-163235965041416)
 
 现在我们已经拿到相册数据了，那么开始下一步。
 
@@ -34,36 +34,36 @@
 
 拿到数据后我们需要知道哪个字段存储的是原图信息，首先我们随便找一张图打开，选择`查看原图`，
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](zone_pics.assets/640-163235965334318)
 
 不出意外会跳转到一个新的浏览器tab，这时候地址栏里的就是原图链接，可以发现原图都是`http://r.photo.store.qq.com/`的地址。
 
-![图片](zone_pics.assets/640-16323595400282)
+![图片](zone_pics.assets/640-163235965479620)
 
 再看看我们拿到的数据里，只有`row`这个字段符合要求，所以他就是原图链接
 
-![图片](zone_pics.assets/640-16323595431914)
+![图片](zone_pics.assets/640-163235965658322)
 
 ## 数据格式化 
 
 拿到数据后我还需要进行数据格式化，这一步因人而异，怎么方便怎么来，最终目的是格式化成下载器能识别的路径。
 
-![图片](zone_pics.assets/640-16323595447516)
+![图片](zone_pics.assets/640-163235965822124)
 
 格式化完成后就是一串换行风格的链接文件
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](zone_pics.assets/640-163235966023126)
 
 ## 下载 
 
 市面上有很多好用的下载器可供选择，这里我使用`downie`进行批量下载
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](zone_pics.assets/640-163235966176428)
 
 这里要注意一点就是需要下载的图片很多，为了跟你以前的下载文件区分开，最好重新设置一下下载目录，这样就不会很多文件乱在一起无法分别了。
 
-![图片](zone_pics.assets/640-16323595466678)
+![图片](zone_pics.assets/640-163235966326530)
 
 直接将格式化好的文本复制进去就可以等待下载完成了，还是很方便的~
 
-![图片](zone_pics.assets/640-163235954848710)
+![图片](zone_pics.assets/640-163235966529932)
