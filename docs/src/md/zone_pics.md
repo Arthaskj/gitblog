@@ -16,7 +16,7 @@
 
 ![图片](zone_pics.assets/640-163235964780014)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/fx5vvsLxfykTqauUiaYFpuxl500ScMGDtO9sUQ155iaWjptcU90XSpYRrIib7CRaNnyPYY3sZjckjzfHGyd5aHvPg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](zone_pics.assets/640-16324017653611)
 
 这里我们可以敏锐的察觉到每次滑动滚轮时这两个参数会发生变化，熟悉前端可能一眼就能看出来这两个字段是干什么的，没错，他们就是分页查询所必须的字段，这里为了性能，扣扣相册做了懒加载，每次只查询少量数据，那么到了我们手上，直接改到最大就行。
 
