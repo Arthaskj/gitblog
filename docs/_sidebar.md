@@ -9,6 +9,7 @@
 * 一、文章  
   **Common**
     * [windows系统下解决bash中文乱码问题](src/md/common)
+    * [原图导出QQ空间相册里的图片](src/md/zone_pics)
     * [Gitee配合webhook实现自动部署](src/md/ci/gitee)
     * [京东云云计算中级工程师](src/md/certificate)
     * [WebApp项目(vue、vant)](src/md/mzqh5)
