@@ -60,6 +60,7 @@
     * [SSH、SCP执行远程服务器命令](src/md/ssh_cmd)
     * [项目中使用高德地图组件](src/md/amap)
     * [React Hook](src/md/react_hook)
+    * [Mysql常用指令](src/md/mysql)
     
   **前端代码**
     * [右键菜单功能](src/study/vue右键菜单)
