@@ -32,6 +32,11 @@
 <body>
   <div id="app">正在加载，请稍后。。。</div>
   <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  <script>
     // mermaid.initialize({
     //   startOnLoad: false
     // });
@@ -100,8 +105,10 @@
             return content + html;
           })
         },
-        function(hook) {
+        function(hook,vm) {
           hook.doneEach(function() {
+          document.querySelector('meta[name="keywords"]').content = (((vm.compiler || {}).toc || [])[0] || {}).title;
+          document.querySelector('meta[name="description"]').content = (((vm.compiler || {}).toc || [])[0] || {}).title;
             fetch(`/api/system/UpdateStorage?host=${window.location.host}&hash=${window.location.hash.replace('#','arthas')}`)
             .then(res => res.json()).then(res => {
               const { pv, sv } = res.data;
